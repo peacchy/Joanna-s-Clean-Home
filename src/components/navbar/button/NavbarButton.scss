@@ -1,0 +1,15 @@
+.login {
+	&__button {
+		background-color: #eefff7;
+		color: #717981;
+        border: none;
+        font-family: "Roboto", sans-serif;
+		margin-left: 1.56rem;
+		height: 3.12rem;
+		width: 6.25rem;
+
+	}
+	&__button:hover {
+		background-color: #82e3f2;
+	}
+}

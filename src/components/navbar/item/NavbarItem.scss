@@ -1,0 +1,14 @@
+.item {
+    display: flex;
+    
+	&__link {
+		text-decoration: none;
+		color: #717981;
+		margin: 0 1.56rem 0 1.56rem;
+		font-weight: bold;
+	}
+
+	&__link:hover {
+		color: #82e3f2;
+	}
+}
