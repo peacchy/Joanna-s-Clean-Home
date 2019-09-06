@@ -7,19 +7,26 @@
 		object-fit: cover;
 		width: 445px;
 		height: 480px;
-		object-position: left;
+        object-position: left;
+        z-index: 2;
 	}
 
 	&__stars {
 		position: absolute;
-		margin-top: 150px;
-		margin-left: 30px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        bottom: 0px;
+        left: 0px;
+        z-index: 3;
     }
     
     &__square {
         justify-content: right;
-        background-color: red;
+        background-color: azure;
         z-index: -1;
         position: absolute;
+        height: 440px;
+        width: 420px;
+        margin: 85px 80px 0 0;
     }
 }
