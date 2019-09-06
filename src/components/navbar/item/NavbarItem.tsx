@@ -1,14 +1,18 @@
-import React from 'react';
-import './NavbarItem.scss';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./NavbarItem.scss";
 
-import Props from './NavbarItem.props';
+import Props from "./NavbarItem.props";
 
 const NavbarItem = (props: Props) => {
-    return(
-        <div className="item">
-            <a className="item__link" href={`#${props.name.toLowerCase()}`}>{props.name}</a>
-        </div>
-    )
-}
+	return (
+		<div className="item">
+            <Link className="item__link" to={`/aboutus`}>{props.name}</Link>
+		</div>
+	);
+};
 
 export default NavbarItem;
+// to={`/${props.name.toLowerCase()}`}
+// name={props.name}
+

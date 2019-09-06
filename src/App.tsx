@@ -1,13 +1,22 @@
 import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 import "./App.scss";
+
 import Navbar from "./components/navbar/Navbar";
+import AboutUs from "./components/about-us/AboutUs";
 
 const App = () => {
 	return (
 		<div className="App">
-			<div className="navbar">
-				<Navbar />
-			</div>
+			<BrowserRouter>
+				<div className="navbar">
+					<Navbar />
+				</div>
+
+				<Route path="/home" exact component={App} />
+				<Route path="/aboutus" exact component={AboutUs} />
+			
+
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				Vestibulum pulvinar ornare augue quis suscipit. Fusce lacinia
@@ -108,6 +117,7 @@ const App = () => {
 				justo eget, suscipit velit. Quisque lacinia orci non neque
 				dignissim, at elementum enim euismod.
 			</p>
+			</BrowserRouter>
 		</div>
 	);
 };
