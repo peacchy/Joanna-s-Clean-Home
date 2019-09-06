@@ -1,0 +1,25 @@
+.picture {
+	justify-content: right;
+    position: relative;
+    display: flex;
+    
+	&__living_room {
+		object-fit: cover;
+		width: 445px;
+		height: 480px;
+		object-position: left;
+	}
+
+	&__stars {
+		position: absolute;
+		margin-top: 150px;
+		margin-left: 30px;
+    }
+    
+    &__square {
+        justify-content: right;
+        background-color: red;
+        z-index: -1;
+        position: absolute;
+    }
+}
