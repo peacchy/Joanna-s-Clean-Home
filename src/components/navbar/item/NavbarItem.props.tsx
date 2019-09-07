@@ -1,5 +1,6 @@
-type Props = {
-    name: string;
+type NavbarProps = {
+    title: string;
+    url?: string;
 }
 
-export default Props;
+export default NavbarProps;
