@@ -1,0 +1,15 @@
+.title {
+	&__line {
+		width: 4rem;
+		height: 0.12rem;
+		background-color: lightgray;
+		margin: 0 0 20px 80px;
+	}
+
+	&__text {
+		font-size: 50px;
+		font-family: initial;
+		color: #464646;
+		margin-left: 80px;
+	}
+}
