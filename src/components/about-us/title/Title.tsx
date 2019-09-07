@@ -1,7 +1,7 @@
 import React from "react";
 import './Title.scss';
 
-const AboutUs = () => {
+const Title = () => {
 	return (
 		<div className="title">
             <div className="title__line" />
@@ -12,4 +12,4 @@ const AboutUs = () => {
 	);
 };
 
-export default AboutUs;
+export default Title;

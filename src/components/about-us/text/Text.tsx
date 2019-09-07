@@ -1,9 +1,10 @@
 import React from "react";
 import "./Text.scss";
 
-import TextProps from './Text.props';
+import UnorderedList from "../../common/list/unordered/UnorderedList";
+import ListItem from "../../common/list/list-item/ListItem";
 
-const Text = (props: TextProps) => {
+const Text = () => {
 	return (
 		<div className="text">
 			<p className="text__main">
@@ -15,7 +16,25 @@ const Text = (props: TextProps) => {
 				sagittis vulputate vitae vel ligula. Vivamus sed lacus nunc.
 			</p>
 
-            <p className="text__sub"></p>
+			<UnorderedList>
+				<ListItem>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Morbi iaculis, dui non mattis consectetur, leo nisl sodales
+					orci, non mattis augue eros ac felis.
+				</ListItem>
+
+				<ListItem>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Morbi iaculis, dui non mattis consectetur, leo nisl sodales
+					orci, non mattis augue eros ac felis.
+				</ListItem>
+
+				<ListItem>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Morbi iaculis, dui non mattis consectetur, leo nisl sodales
+					orci, non mattis augue eros ac felis.
+				</ListItem>
+			</UnorderedList>
 		</div>
 	);
 };

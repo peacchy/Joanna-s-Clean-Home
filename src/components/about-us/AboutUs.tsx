@@ -13,7 +13,7 @@ const AboutUs = () => {
 			</div>
 			<div className="about_us__content">
 				<div className="about_us__content__text">
-					<Text text="hello world" words={1} indentation="main" />
+					<Text />
 				</div>
 				<div className="about_us__content__picture">
 					<Picture />
