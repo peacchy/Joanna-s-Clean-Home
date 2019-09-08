@@ -4,7 +4,7 @@ import "./Search.scss";
 const Search = () => {
 	return (
 		<div className="search">
-			Hello I'm search! :D
+			<input className="search__input" type="text" placeholder="Search..." />
 		</div>
 	);
 };

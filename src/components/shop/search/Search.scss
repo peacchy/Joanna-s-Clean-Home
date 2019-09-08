@@ -1,0 +1,19 @@
+.search {
+	width: 517px;
+    z-index: 1;
+   
+
+	&__input {
+        width: 245px;
+        height: 30px;
+        border: none;
+        border-left: 1px solid grey;
+        margin-bottom: 5px;
+	}
+
+	&__input:focus {
+        width: 100%;
+        font-weight: bold;
+        clolor: #000;
+	}
+}

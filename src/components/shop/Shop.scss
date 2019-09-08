@@ -1,4 +1,13 @@
 .shop {
     display: flex;
     justify-content: center;
+
+    &__items {
+        width: 250px;
+        position: relative;
+
+        &__search{
+            z-index: 1;
+        }
+    }
 }
