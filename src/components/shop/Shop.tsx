@@ -1,10 +1,18 @@
 import React from "react";
 import "./Shop.scss";
 
+import Product from "./product/Product";
+import Favourite from "./favourite/Favourite";
+import Search from "./search/Search";
+
 const Shop = () => {
 	return (
 		<div className="shop">
-			Hello I'm shop! :D
+			<div className="shop__items">
+				<Search />
+				<Favourite />
+				<Product />
+			</div>
 		</div>
 	);
 };

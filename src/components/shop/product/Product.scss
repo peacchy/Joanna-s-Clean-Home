@@ -1,0 +1,10 @@
+.product {
+    display: flex;
+    flex-flow: row wrap;
+
+    &__item {
+        margin: 5px;
+        height: 350px;
+        width: 250px;
+    }
+}
