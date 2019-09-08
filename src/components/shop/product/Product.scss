@@ -1,6 +1,7 @@
 .product {
     display: flex;
     flex-flow: row wrap;
+    width: 780px;
 
     &__item {
         margin: 5px;

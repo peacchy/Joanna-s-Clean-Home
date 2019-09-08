@@ -9,8 +9,14 @@ const Shop = () => {
 	return (
 		<div className="shop">
 			<div className="shop__items">
-				<Search />
-				<Favourite />
+				<div className="shop__items__search">
+					<Search />
+				</div>
+				<div className="shop__items__favourite">
+					<Favourite />
+				</div>
+			</div>
+			<div className="shop__products">
 				<Product />
 			</div>
 		</div>
