@@ -1,31 +1,38 @@
 @import "~font-awesome/scss/font-awesome";
 
 .search {
-
 	&__search-bar {
-		width: 517px;
+		width: 548px;
 		z-index: 1;
-		border-left: 1px solid grey;
-		line-height: 5px;
+		margin-left: -28px;
 		display: flex;
 
 		&__input {
-			width: 245px;
+			width: 208px;
 			height: 30px;
 			border: none;
 			margin-bottom: 5px;
+			padding-left: 40px;
+			border-left: 1px solid #d3d3d3;
 		}
 
 		&__input:focus {
 			width: 100%;
 			font-weight: bold;
 			color: #000;
+			border: none;
 		}
 	}
 }
 
 .fa-search {
 	margin: 7px;
+	position: relative;
+	left: 35px;
+}
+
+.fa-search:focus {
+	color: gray;
 }
 
 .fa-times {
@@ -33,4 +40,9 @@
 	position: relative;
 	right: 30px;
 	color: #808080;
+}
+
+.fa-times:focus {
+    display: unset;
+
 }
