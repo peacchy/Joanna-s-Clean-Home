@@ -29,6 +29,7 @@
 			}
 		}
 		&__menu {
+
 			display: flex;
 
 			&__item {
@@ -43,6 +44,21 @@
 				position: relative;
 				margin-top: 1.68rem;
 			}
+
+			@media (max-width: 600px){
+				&__item  {
+					flex-basis: 70%;
+					flex-grow: 1;
+					margin-top: 0;
+					margin-left: 20px;
+				}
+			}
+		}
+	}
+
+	@media (max-width: 600px){
+		&__elements  {
+			margin-bottom: 30px;
 		}
 	}
 }

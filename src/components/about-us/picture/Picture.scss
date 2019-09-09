@@ -1,32 +1,31 @@
 .picture {
-	justify-content: right;
-    position: relative;
-    display: flex;
-    
+	position: relative;
+
 	&__living_room {
-		object-fit: cover;
-		width: 27.81rem;
-		height: 30rem;
-        object-position: left;
-        z-index: 2;
+		object-position: left;
+		z-index: 2;
+		position: absolute;
+		top: 0;
+		left: 0;
+		max-width: 100%;
+		height: auto;
 	}
 
 	&__stars {
 		position: absolute;
-        margin-bottom: 1.87rem;
-        margin-left: 1.87rem;
-        bottom: 0px;
-        left: 0px;
-        z-index: 3;
-    }
-    
-    &__square {
-        justify-content: right;
-        background-color: azure;
-        z-index: -1;
-        position: absolute;
-        height: 27.5rem;
-        width: 26.25rem;
-        margin: 5.31rem 5rem 0 0;
-    }
+		z-index: 3;
+		top: 0;
+		left: 0;
+		max-width: 100%;
+		height: auto;
+	}
+
+	&__square {
+		justify-content: right;
+		background-color: azure;
+		z-index: -1;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
 }

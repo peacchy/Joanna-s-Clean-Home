@@ -5,5 +5,34 @@
 		display: flex;
 		justify-content: center;
 		padding-top: 1.25rem;
+		flex-wrap: wrap;
+
+		&__text {
+			flex-grow: 1;
+			flex-basis: 35%;
+		}
+
+		&__picture {
+			flex-grow: 1;
+			flex-basis: 35%;
+		}
+		
+		@media (max-width: 900px) {
+			&__picture {
+				flex-basis: 70%;
+			}
+		}
+
+		@media (max-width: 900px) {
+			&__text {
+				flex-basis: 60%;
+			}
+		}
+
+		@media (max-width: 900px) {
+			&__text {
+				flex-basis: 60%;
+			}
+		}
 	}
 }

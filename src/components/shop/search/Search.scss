@@ -1,30 +1,25 @@
 @import "~font-awesome/scss/font-awesome";
 
 .search {
-	&__search-bar {
-		width: 548px;
-		z-index: 1;
-		margin-left: -28px;
-		display: flex;
+	width: 568px;
+	z-index: 20;
 
-		&__input {
-			width: 208px;
-			height: 30px;
-			border: none;
-			margin-bottom: 5px;
-			padding-left: 40px;
-            border-left: 1px solid #d3d3d3;
-            list-style: none;
-            appearance: none;
-		}
-
-		&__input:focus {
-			width: 100%;
-			font-weight: bold;
-			color: #000;
-			border: none;
-		}
+	&__input {
+		width: 250px;
+		margin-bottom: 10px;
 	}
+	&__input:focus {
+		width: 568px;
+		padding-left: 27px;
+	}
+}
+
+.search:focus {
+	width: 568px;
+	font-weight: bold;
+	color: #000;
+	border: none;
+	z-index: 10;
 }
 
 .fa-search {
@@ -35,19 +30,4 @@
 
 .fa-search:focus {
 	color: #808080;
-}
-
-.fa-times {
-	margin: 5px;
-	position: relative;
-	right: 30px;
-	color: #808080;
-}
-
-.fa-times:hover {
-    color: #8086ff;
-}
-
-.delete {
-
 }

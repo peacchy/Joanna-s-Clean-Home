@@ -1,6 +1,6 @@
 .item {
-    display: flex;
-    
+	display: flex;
+
 	&__link {
 		text-decoration: none;
 		color: #717981;
@@ -10,5 +10,13 @@
 
 	&__link:hover {
 		color: #82e3f2;
+	}
+}
+
+@media (max-width: 600px) {
+	.item {
+		flex-basis: 70%;
+		flex-grow: 1;
+		margin-top: 5px;
 	}
 }
