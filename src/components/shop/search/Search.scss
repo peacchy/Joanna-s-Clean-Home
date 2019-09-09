@@ -13,7 +13,9 @@
 			border: none;
 			margin-bottom: 5px;
 			padding-left: 40px;
-			border-left: 1px solid #d3d3d3;
+            border-left: 1px solid #d3d3d3;
+            list-style: none;
+            appearance: none;
 		}
 
 		&__input:focus {
@@ -32,7 +34,7 @@
 }
 
 .fa-search:focus {
-	color: gray;
+	color: #808080;
 }
 
 .fa-times {
@@ -42,7 +44,10 @@
 	color: #808080;
 }
 
-.fa-times:focus {
-    display: unset;
+.fa-times:hover {
+    color: #8086ff;
+}
+
+.delete {
 
 }
