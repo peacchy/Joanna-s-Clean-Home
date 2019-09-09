@@ -1,5 +1,6 @@
 .picture {
 	position: relative;
+	margin: 15px;
 
 	&__living_room {
 		object-position: left;
@@ -14,8 +15,8 @@
 	&__stars {
 		position: absolute;
 		z-index: 3;
-		top: 0;
-		left: 0;
+		top: 150px;
+		left: 30px;
 		max-width: 100%;
 		height: auto;
 	}
@@ -25,7 +26,9 @@
 		background-color: azure;
 		z-index: -1;
 		position: absolute;
-		top: 0;
-		left: 0;
+		top: 90px;
+		left: -50px;
+		height: 440px;
+		width: 400px;
 	}
 }

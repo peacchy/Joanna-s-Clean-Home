@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import Select from "react-select";
 import { Styles } from "react-select/src/styles";
-import SearchProps from "./Search.props";
 import "./Search.scss";
 
-const Search = (props: SearchProps) => {
+const Search = () => {
 
 	const options = [
 		{ value: "chocolate", label: "Chocolate" },

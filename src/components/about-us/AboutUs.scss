@@ -3,29 +3,41 @@
 
 	&__content {
 		display: flex;
-		justify-content: center;
 		padding-top: 1.25rem;
 		flex-wrap: wrap;
+
 
 		&__text {
 			flex-grow: 1;
 			flex-basis: 35%;
+			margin-left: 120px;
 		}
 
 		&__picture {
 			flex-grow: 1;
 			flex-basis: 35%;
 		}
-		
+
 		@media (max-width: 900px) {
 			&__picture {
 				flex-basis: 70%;
+				margin-left:170px;
+
+
 			}
 		}
 
-		@media (max-width: 900px) {
-			&__text {
-				flex-basis: 60%;
+		@media (max-width: 600px) {
+			&__picture {
+				margin-left:120px;
+
+
+			}
+		}
+
+		@media (min-width: 300px) {
+			&__picture {
+				margin-left:20px;
 			}
 		}
 
@@ -36,3 +48,19 @@
 		}
 	}
 }
+
+
+
+@media (max-width: 950px) {
+	.about_us {
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 600px) {
+	.about_us {
+		margin-top: 300px;
+	}
+}
+
+
