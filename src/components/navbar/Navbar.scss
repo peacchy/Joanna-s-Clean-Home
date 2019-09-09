@@ -4,13 +4,11 @@
 	display: flex;
 	top: 0;
 	position: fixed;
-	height: 6.25rem;
 	background-color: #fff;
 	width: 100%;
 	letter-spacing: 1px;
 	padding-top: 10px;
 	z-index: 4;
-
 
 	&__elements {
 		display: flex;
@@ -19,7 +17,6 @@
 		position: relative;
 		justify-content: center;
 		flex-wrap: wrap;
-
 
 		&__logo {
 			position: relative;
@@ -31,18 +28,21 @@
 				display: none;
 			}
 		}
+		&__menu {
+			display: flex;
 
-		&__item {
-			position: relative;
-			display: flex; //zmienic to potem na navbar item display:flex
-			margin-top: 2.65rem;
-			font-size: 0.9rem;
-			flex-wrap: wrap;
-		}
+			&__item {
+				position: relative;
+				display: flex;
+				margin-top: 1.33rem;
+				font-size: 0.9rem;
+				flex-wrap: wrap;
+			}
 
-		&__button {
-			position: relative;
-			margin-top: 1.68rem;
+			&__button {
+				position: relative;
+				margin-top: 1.68rem;
+			}
 		}
 	}
 }

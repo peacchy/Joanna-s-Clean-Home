@@ -16,22 +16,23 @@ const Navbar = () => {
 					<div className="topnav__elements__logo">
 						<NavbarLogo />
 					</div>
-					<div className="topnav__elements__item">
-						<NavbarItem title="HOME" url="/home" />
-						<NavbarItem title="ABOUT US" url="/aboutus" />
-						<NavbarItem title="BLOG" url="/blog" />
-						<NavbarItem title="SHOP" url="/shop" />
-						<NavbarItem title="..." />
-					</div>
-					<div className="topnav__elements__button">
-						<NavbarButton />
+					<div className="topnav__elements__menu">
+						<div className="topnav__elements__menu__item">
+							<NavbarItem title="HOME" url="/home" />
+							<NavbarItem title="ABOUT US" url="/aboutus" />
+							<NavbarItem title="BLOG" url="/blog" />
+							<NavbarItem title="SHOP" url="/shop" />
+							<NavbarItem title="..." />
+						</div>
+						<div className="topnav__elements__menu__button">
+							<NavbarButton />
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<Route path="/aboutus" exact component={AboutUs} />
 			<Route path="/shop" exact component={Shop} />
-
 		</BrowserRouter>
 	);
 };
