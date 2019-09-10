@@ -5,6 +5,7 @@ import Picture from "./picture/Picture";
 import Title from "./title/Title";
 import Text from "./text/Text";
 
+
 const AboutUs = () => {
 	return (
 		<div className="about_us">

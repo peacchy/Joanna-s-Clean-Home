@@ -16,23 +16,22 @@
 			flex-grow: 1;
 			flex-basis: 35%;
 		}
-
 		@media (max-width: 56.25rem) {
 			&__picture {
 				flex-basis: 70%;
-				margin-left: 10.63rem;
+				margin-left: 9rem;
 			}
 		}
 
-		@media (max-width: 37.5rem) {
+		@media (max-width: 38.75rem) {
 			&__picture {
-				margin-left: 7.5rem;
+				margin-left: 5rem;
 			}
 		}
 
-		@media (min-width: 18.75rem) {
+		@media (max-width: 25rem) {
 			&__picture {
-				margin-left: 1.25rem;
+				margin-left: 1.5rem;
 			}
 		}
 
