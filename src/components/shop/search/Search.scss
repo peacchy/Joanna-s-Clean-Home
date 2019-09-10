@@ -1,21 +1,21 @@
 @import "~font-awesome/scss/font-awesome";
 
 .search {
-	width: 568px;
+	width: 35.5rem;
 	z-index: 20;
 
 	&__input {
-		width: 250px;
-		margin-bottom: 10px;
+		width: 22rem;
+		margin-bottom: 0.62rem;
 	}
 	&__input:focus {
-		width: 568px;
-		padding-left: 27px;
+		width: 35.5rem;
+		padding-left: 1.68rem;
 	}
 }
 
 .search:focus {
-	width: 568px;
+	width: 35.5rem;
 	font-weight: bold;
 	color: #000;
 	border: none;
@@ -23,9 +23,9 @@
 }
 
 .fa-search {
-	margin: 7px;
+	margin: 0.43rem;
 	position: relative;
-	left: 35px;
+	left: 2.18rem;
 }
 
 .fa-search:focus {

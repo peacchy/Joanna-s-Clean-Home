@@ -1,8 +1,7 @@
 import React from "react";
 import "./Favourite.scss";
 
-import ShopFavourite from '../../../img/img-shop/shop_favourite.png';
-
+import ShopFavourite from "../../../img/img-shop/shop_favourite.png";
 
 const Favourite = () => {
 	return (
@@ -10,7 +9,7 @@ const Favourite = () => {
 			<img className="favourite__item" src={ShopFavourite} />
 			<img className="favourite__item" src={ShopFavourite} />
 			<img className="favourite__item" src={ShopFavourite} />
-			<img className="favourite__item" src={ShopFavourite} />			
+			<img className="favourite__item" src={ShopFavourite} />
 		</div>
 	);
 };

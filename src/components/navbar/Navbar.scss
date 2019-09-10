@@ -7,7 +7,7 @@
 	background-color: #fff;
 	width: 100%;
 	letter-spacing: 1px;
-	padding-top: 10px;
+	padding-top: 0.62rem;
 	z-index: 4;
 
 	&__elements {
@@ -29,7 +29,6 @@
 			}
 		}
 		&__menu {
-
 			display: flex;
 
 			&__item {
@@ -45,20 +44,20 @@
 				margin-top: 1.68rem;
 			}
 
-			@media (max-width: 600px){
-				&__item  {
+			@media (max-width: 37.5rem) {
+				&__item {
 					flex-basis: 70%;
 					flex-grow: 1;
 					margin-top: 0;
-					margin-left: 20px;
+					margin-left: 1.25rem;
 				}
 			}
 		}
 	}
 
-	@media (max-width: 600px){
-		&__elements  {
-			margin-bottom: 30px;
+	@media (max-width: 37.5rem) {
+		&__elements {
+			margin-bottom: 1.87rem;
 		}
 	}
 }

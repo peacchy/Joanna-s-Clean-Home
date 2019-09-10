@@ -1,11 +1,11 @@
 .favourite {
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 1.25rem;
 
-    &__item {
-        margin-bottom: 5px;
-        width: 250px;
-        height: 175px;
-    }
+	&__item {
+		margin-bottom: 0.31rem;
+		width: 21.88rem;
+		height: 10.94rem;
+	}
 }

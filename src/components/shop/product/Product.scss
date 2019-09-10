@@ -3,19 +3,19 @@
 	flex-flow: row wrap;
 
 	&__item {
-		margin: 0 0 30px 20px;
-		height: 350px;
-		width: 250px;
+		margin: 0 0 1.87rem 1.25rem;
+		height: 21.88rem;
+		width: 15.63rem;
 	}
 
-	@media (max-width: 600px) {
+	@media (max-width: 37.5rem) {
 		&__item {
-            margin: 0 6px 10px 5px;
+			margin: 0 0.37rem 0.62rem 0.31rem;
 		}
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
 	.product {
 		flex-basis: 70%;
 		flex-grow: 1;

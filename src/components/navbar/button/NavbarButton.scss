@@ -10,11 +10,9 @@
 	&__button:hover {
 		background-color: #82e3f2;
 	}
-
-
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
 	.login {
 		flex-basis: 70%;
 		flex-grow: 1;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Product.scss";
 
-import ShopProduct from '../../../img/img-shop/shop_product.png';
+import ShopProduct from "../../../img/img-shop/shop_product.png";
 
 const Product = () => {
 	return (

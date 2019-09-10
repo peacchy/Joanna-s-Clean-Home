@@ -1,8 +1,8 @@
 import React from "react";
 import "./NavbarLogo.scss";
 
-import Logo_1 from '../../../img/img-navbar/blue_logo_1.png';
-import Logo_2 from '../../../img/img-navbar/blue_logo_2.png';
+import Logo_1 from "../../../img/img-navbar/blue_logo_1.png";
+import Logo_2 from "../../../img/img-navbar/blue_logo_2.png";
 
 const NavbarLogo = () => {
 	return (
